@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+body  {
+    text-align: center;
+
+}
+.game-buttons-container{
+    padding-bottom: 25px;
+    width:100%;
+
+}
+.user-game-button-container{
+    padding-top:30px;
+}
+.individual-buttons-game{
+    background-color: white;
+    margin-top: 50px;
+    padding:15px;
+
+}
+.score-container{
+    margin: auto;
+    width: 60%;
+    border: 5px solid lightgrey;
+    padding: 10px;
+
+}
