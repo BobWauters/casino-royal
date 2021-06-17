@@ -8,32 +8,50 @@
 <body>
 <h1> Rock Paper Scissors Game</h1>
 
-
+<!--scoreboard -->
 <div class="score-container">
-SCOREBOARD <br>
-    Player:
-    <br>
-    Computer:
-</div>
+    <section>
+    SCOREBOARD <br>
+        <div id="user-points" class="score-board"> Playah </div>
 
+        <div id ="computer-points" class="score-board" > Computah </div>
+
+        <span id="user-score">0 </span> : <span id="computer-score">0 </span>
+
+</section>
+
+
+<!--three buttons to choose from -->
 <div class="game-buttons-container">
 
 <label for ="rock">
 <button id ="rock" class ="individual-buttons-game"><img src="Images/stone.png" alt="Rock"></button>
 </label>
 <label for ="paper">
-<button id ="paper"class ="individual-buttons-game"><img src="Images/notes.png" alt="Paper"></button>
+<button id ="paper" class ="individual-buttons-game"><img src="Images/notes.png" alt="Paper"></button>
 </label>
 <label for ="scissors">
-<button id ="scissors"class ="individual-buttons-game"><img src="Images/scissors.png" alt="Scissors"></button>
+<button id ="scissors" class ="individual-buttons-game"><img src="Images/scissors.png" alt="Scissors"></button>
 </label>
 
 </div>
 
+    <p id="game-instructions"> Select the <strong>Play </strong>button to start, and select your choice! <br>
+        To end your turn please select <strong>End Turn</strong> </p>
+
+<!--Player button to trigger computers turn -->
 <div class ="user-game-button-container">
-<button id ="user-game-button">End Turn</button>
+    <button id ="user-game-button-begin">Play</button>
+<button id ="user-game-button-end">End Turn</button>
 </div>
 
+<!--A message to show result -->
+<div class="result-window">
+
+    <p id="result"> You have won the round!</p>
+
+    <p id="result-loss"> You have lost the round!</p>
+</div>
 
 
 
